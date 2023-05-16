@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+        <center>
+            <form method="post" action="postuser/" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="send"> Send</button>
+            </form>
+            <a href="/main/">Main page</a>
+
+        </center>
+</body>
+</html>

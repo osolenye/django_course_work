@@ -1,0 +1,130 @@
+/*stuff at the top*/
+.glavnaya{
+    width: 100%;
+}
+/*stuff at the top for service page*/
+.menuglavnaya{
+     height: 600px;
+     width: 100%;
+     filter: brightness(50%);
+}
+
+/*text at the top*/
+.glavtext{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -70px;
+    color: lavender;
+    font-family: Georgia, serif;
+}
+/*things for events*/
+.eventtext {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.eventimage{
+    height: 400px;
+    width: 700px;
+    float: left;
+}
+.square{
+    height: 400px;
+    width: 700px;
+    background: rgb(250,247,242);
+    float: right;
+
+}
+
+.eventcontent{
+    display: inline-block;
+}
+
+/*things for service content*/
+.menusquare{
+    border: 3px solid;
+    border-color: darkgoldenrod;
+    width: 1000px;
+    height: 250px;
+    margin-top: -500px;
+    z-index: 9;
+    position: relative;
+}
+.menuMENU{
+    color: darkgoldenrod;
+    position: relative;
+    z-index: 9;
+    margin-top: -150px;
+}
+
+/*things for about us page*/
+.aboutglavnaya{
+    height: 600px;
+    width: 100%;
+    filter: brightness(70%);
+}
+.aboutsquare{
+    border: 3px solid;
+    border-color: lavender;
+    width: 1000px;
+    height: 250px;
+    z-index: 9;
+    position: relative;
+    margin-top: -450px;
+}
+.aboutABOUT{
+    color: lavender;
+    position: relative;
+    z-index: 9;
+    margin-top: -150px;
+    text-align: center;
+}
+.aboutus{
+    margin-top: 305px;
+    text-align: center;
+    font-family: Roboto;
+}
+.textabout{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 17px;
+}
+.staff{
+    text-align: center;
+    font-family: Roboto;
+}
+
+.servicetext{
+    margin-top: 370px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.serviceimage{
+    height: 300px;
+    width: 300px;
+}
+
+.card img{
+    height: 300px;
+}
+
+
+/*order things :)*/
+.orderhead{
+    text-align: center;
+}
+
+
+
+
+
+
+footer{
+    background-color: gainsboro;
+}
+
+
